@@ -5,9 +5,6 @@ This project is a micro project developed using **JsonPowerDB**. It allows users
 
 The application is developed using **HTML**, **Bootstrap**, **JavaScript**, **jQuery**, and **JsonPowerDB**.
 ---
-[![NPM Version][npm-image]][npm-url]
-[![Build Status][travis-image]][travis-url]
-
 
 The Project Management Form is a web-based application developed using HTML, Bootstrap, JavaScript, jQuery, and JsonPowerDB. It is designed to manage project information efficiently by allowing users to add new projects, search existing projects, update project details, and reset the form. The application uses **Project ID** as the primary key to uniquely identify each project record.
 
@@ -20,7 +17,7 @@ When a user enters a Project ID, the application first checks whether the record
 1. Download or clone the repository.
 
 ```sh
-git clone https://github.com/your-github-username/ProjectManagementForm.git
+git clone https://github.com/roshnirawat909/ProjectManagementForm.git
 ```
 
 2. Open the project in **Apache NetBeans IDE**.
@@ -173,41 +170,3 @@ https://github.com/roshnirawat909/ProjectManagementForm
 
 ---
 
-## Contributing
-
-1. Fork the repository.
-2. Create a new branch.
-
-```sh
-git checkout -b feature-name
-```
-
-3. Commit your changes.
-
-```sh
-git commit -m "Added new feature"
-```
-
-4. Push your branch.
-
-```sh
-git push origin feature-name
-```
-
-5. Create a Pull Request.
-
----
-
-1. Fork it (<https://github.com/roshnirawat909/ProjectManagementForm/fork>)
-2. Create your feature branch (`git checkout -b feature/fooBar`)
-3. Commit your changes (`git commit -am 'Add some fooBar'`)
-4. Push to the branch (`git push origin feature/fooBar`)
-5. Create a new Pull Request
-
-<!-- Markdown link & img dfn's -->
-[npm-image]: https://img.shields.io/npm/v/datadog-metrics.svg?style=flat-square
-[npm-url]: https://npmjs.org/package/datadog-metrics
-[npm-downloads]: https://img.shields.io/npm/dm/datadog-metrics.svg?style=flat-square
-[travis-image]: https://img.shields.io/travis/dbader/node-datadog-metrics/master.svg?style=flat-square
-[travis-url]: https://travis-ci.org/dbader/node-datadog-metrics
-[wiki]: https://github.com/yourname/yourproject/wiki
