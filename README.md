@@ -13,8 +13,6 @@ The Project Management Form is a web-based application developed using HTML, Boo
 
 When a user enters a Project ID, the application first checks whether the record already exists in the JsonPowerDB database. If the Project ID is not found, the user can enter the project details and save them. If the Project ID already exists, the stored information is displayed, allowing the user to update the details. This project demonstrates the integration of JsonPowerDB with a front-end web application and showcases CRUD (Create, Read, Update, and Reset) operations with proper form validation.
 
-![](header.png)
-
 ## Installation
 
 ### Windows
@@ -137,13 +135,8 @@ Project ID
 
 ```
 ProjectManagementForm/
-
-│── public_html/
-│     ├── index.html
-│     ├── index.js
-│
-│── nbproject/
-│
+│── index.html
+│── index.js
 │── README.md
 ```
 
@@ -163,8 +156,6 @@ ProjectManagementForm/
 
 ## Meta
 
-## Meta
-
 **Developer:** Roshni Rawat
 
 B.Tech Computer Science & Information Technology
@@ -173,15 +164,11 @@ Sagar Institute of Research & Technology (SIRT), Bhopal
 
 GitHub Repository
 
-https://github.com/your-github-username/ProjectManagementForm
+https://github.com/roshnirawat909/ProjectManagementForm
 
 ---
 
-Your Name – [@YourTwitter](https://twitter.com/dbader_org) – YourEmail@example.com
-
-Distributed under the XYZ license. See ``LICENSE`` for more information.
-
-[https://github.com/yourname/github-link](https://github.com/dbader/)
+[https://github.com/roshnirawat909/ProjectManagementForm](https://github.com/dbader/)
 
 
 
@@ -210,7 +197,7 @@ git push origin feature-name
 
 ---
 
-1. Fork it (<https://github.com/yourname/yourproject/fork>)
+1. Fork it (<https://github.com/roshnirawat909/ProjectManagementForm/fork>)
 2. Create your feature branch (`git checkout -b feature/fooBar`)
 3. Commit your changes (`git commit -am 'Add some fooBar'`)
 4. Push to the branch (`git push origin feature/fooBar`)
