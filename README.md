@@ -1,14 +1,13 @@
 # Project Management Form using JsonPowerDB
 > A web-based Project Management System developed using HTML, Bootstrap, JavaScript, jQuery, and JsonPowerDB for managing project information.
 
-This project is a micro project developed using **JsonPowerDB**. It allows users to perform CRUD operations on project records. The application checks whether a Project ID already exists in the database. If the Project ID exists, users can update the project details; otherwise, they can save a new project.
+The Project Management Form is a web-based application developed as a micro project using **JsonPowerDB**. It enables users to manage project information efficiently by performing CRUD operations (Create, Read, Update, and Reset). The application uses **Project ID** as the primary key to uniquely identify each project record.
 
-The application is developed using **HTML**, **Bootstrap**, **JavaScript**, **jQuery**, and **JsonPowerDB**.
+When a user enters a Project ID, the application checks whether the record already exists in the JsonPowerDB database. If the Project ID is not found, the user can enter the project details and save them as a new record. If the Project ID already exists, the corresponding project details are displayed, allowing the user to update the existing information. The application also performs input validation to ensure that all required fields are completed before saving or updating data.
+
+The project is developed using **HTML5**, **Bootstrap 5**, **JavaScript**, **jQuery**, and **JsonPowerDB**, demonstrating seamless integration between a modern web interface and a NoSQL database.
+
 ---
-
-The Project Management Form is a web-based application developed using HTML, Bootstrap, JavaScript, jQuery, and JsonPowerDB. It is designed to manage project information efficiently by allowing users to add new projects, search existing projects, update project details, and reset the form. The application uses **Project ID** as the primary key to uniquely identify each project record.
-
-When a user enters a Project ID, the application first checks whether the record already exists in the JsonPowerDB database. If the Project ID is not found, the user can enter the project details and save them. If the Project ID already exists, the stored information is displayed, allowing the user to update the details. This project demonstrates the integration of JsonPowerDB with a front-end web application and showcases CRUD (Create, Read, Update, and Reset) operations with proper form validation.
 
 ## Installation
 
@@ -66,25 +65,11 @@ Click the **Reset** button to clear all fields and start a new operation.
 
 ### Database Details
 
-Database Name
-
-```
-COLLEGE-DB
-```
-
-Relation Name
-
-```
-PROJECT-TABLE
-```
-
-Primary Key
-
-```
-Project ID
-```
-
----
+| Item | Value |
+|------|-------|
+| Database Name | COLLEGE-DB |
+| Relation Name | PROJECT-TABLE |
+| Primary Key | Project ID |
 
 
 ## Benefits of using JsonPowerDB
@@ -139,6 +124,17 @@ ProjectManagementForm/
 
 ---
 
+## Scope of Functionalities
+
+- Save Project Details
+- Search Project by Project ID
+- Update Existing Project
+- Reset Form
+- Validate User Input
+- Perform CRUD Operations using JsonPowerDB
+  
+---
+
 ## Future Enhancements
 
 - Delete Project Record
@@ -163,10 +159,7 @@ GitHub Repository
 
 https://github.com/roshnirawat909/ProjectManagementForm
 
-Project Link:
-https://github.com/roshnirawat909/ProjectManagementForm
 
-[https://github.com/roshnirawat909/ProjectManagementForm](https://github.com/dbader/)
 
 ---
 
