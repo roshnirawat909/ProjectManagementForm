@@ -7,7 +7,7 @@ The application is developed using **HTML**, **Bootstrap**, **JavaScript**, **jQ
 ---
 [![NPM Version][npm-image]][npm-url]
 [![Build Status][travis-image]][travis-url]
-[![Downloads Stats][npm-downloads]][npm-url]
+
 
 The Project Management Form is a web-based application developed using HTML, Bootstrap, JavaScript, jQuery, and JsonPowerDB. It is designed to manage project information efficiently by allowing users to add new projects, search existing projects, update project details, and reset the form. The application uses **Project ID** as the primary key to uniquely identify each project record.
 
@@ -166,11 +166,12 @@ GitHub Repository
 
 https://github.com/roshnirawat909/ProjectManagementForm
 
----
+Project Link:
+https://github.com/roshnirawat909/ProjectManagementForm
 
 [https://github.com/roshnirawat909/ProjectManagementForm](https://github.com/dbader/)
 
-
+---
 
 ## Contributing
 
